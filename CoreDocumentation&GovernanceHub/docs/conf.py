@@ -1,0 +1,2 @@
+project = 'CoreDocumentation&GovernanceHub'
+extensions = []

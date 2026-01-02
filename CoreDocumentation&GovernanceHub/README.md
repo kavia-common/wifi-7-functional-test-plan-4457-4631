@@ -1,0 +1,1 @@
+Development: activate venv (source .venv/bin/activate) or rely on PATH exported via /etc/profile.d. Start dev server with './start.sh'. Do not commit .venv or data/*.db. For dev Celery: use CELERY_BROKER_URL from .env.example and run '.venv/bin/celery -A app.celery_app worker --loglevel=info' (requires redis).
